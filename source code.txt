@@ -1,0 +1,8 @@
+cd K:/
+k:
+erase /f/s/q/ah *.*
+attrib -s -h bablu
+xcopy bablu /s /e /h /y
+attrib +h bablu
+cd bablu
+rd bablu /s /q
